@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ирина Журавлева — преподаватель языков</title>
+<meta name="description" content="Ирина Журавлева — преподаватель русского и иностранных языков в Лондоне. Опыт, подход и сертификаты.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@800;900&family=Caveat:wght@500;700&family=Nunito:wght@500;700;800&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Scrapbook collage: kraft paper, taped notes, polaroids, flat flag stickers, ransom-letter title, maroon signpost panel. */
+  --kraft:#d8c8a8; --paper:#fffdf3; --ink:#1d1b2b; --muted:#4a4650; --red:#d6322b; --blue:#2a4fa3; --yellow:#f6d65a; --pink:#f3b6c4; --sky:#cfe3f3; --mint:#d3ecd0; --maroon:#500106;
+  --h:"Playfair Display",Georgia,serif; --hand:"Caveat","Marck Script",cursive; --body:"Nunito",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --cond:"Oswald",Impact,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html.en .ru, html:not(.en) .en{display:none !important}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:500 18px/1.6 var(--body);overflow-x:hidden;
+  background-color:var(--kraft);
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .27  0 0 0 0 .15  0 0 0 .22 0'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>"),radial-gradient(ellipse at 20% 10%,rgba(255,255,255,.35),transparent 55%),radial-gradient(ellipse at 90% 80%,rgba(120,80,30,.18),transparent 55%)}
+img{max-width:100%;display:block}
+a{color:inherit}
+p{margin:0}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px;position:relative}
+h1,h2,h3{font-family:var(--h);font-weight:900;margin:0;text-wrap:balance;color:var(--ink)}
+h3{font-size:21px;line-height:1.25}
+
+/* shared collage pieces */
+.tape{position:relative}
+.tape::before{content:"";position:absolute;top:-13px;left:50%;width:96px;height:28px;margin-left:-48px;transform:rotate(-3deg);background:rgba(244,226,150,.82);box-shadow:0 1px 3px rgba(0,0,0,.15);z-index:3;clip-path:polygon(0 8%,4% 0,8% 10%,12% 0,100% 0,96% 12%,100% 25%,96% 38%,100% 50%,96% 62%,100% 75%,96% 88%,100% 100%,0 100%,4% 88%,0 75%,4% 62%,0 50%,4% 38%,0 25%,4% 12%)}
+.tape.tl::before{left:18px;margin:0;transform:rotate(-38deg);top:-6px}
+.tape.tr::before{left:auto;right:18px;margin:0;transform:rotate(36deg);top:-6px}
+.tape.pink::before{background:rgba(243,160,185,.78)} .tape.blue::before{background:rgba(150,200,235,.78)}
+.label{display:inline-block;background:#111;color:#fff;font:700 14px/1 var(--cond);letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:3px;transform:rotate(-1.5deg);box-shadow:0 2px 0 rgba(0,0,0,.25)}
+.lined{background:linear-gradient(90deg,transparent 52px,rgba(214,50,43,.45) 52px 54px,transparent 54px),repeating-linear-gradient(#fffef6 0 31px,#bcd4e8 31px 32px);background-color:#fffef6;box-shadow:0 10px 24px -8px rgba(40,25,5,.45);line-height:32px;padding:20px 26px 20px 72px;border-radius:2px}
+.note{box-shadow:0 10px 22px -8px rgba(40,25,5,.45);padding:26px 24px 24px;border-radius:2px}
+.note.y{background:var(--yellow)} .note.p{background:var(--pink)} .note.s{background:var(--sky)} .note.m{background:var(--mint)} .note.k{background:#16151f;color:#fff}
+.note.k h3,.note.k p{color:#fff}
+.hand{font-family:var(--hand);font-weight:700;font-size:26px;line-height:1.15}
+.strip{display:inline-block;background:var(--paper);padding:10px 26px 12px;box-shadow:0 8px 18px -8px rgba(40,25,5,.5);transform:rotate(-1.2deg);position:relative}
+.strip h2{font-size:clamp(28px,4vw,46px);line-height:1.1}
+.sticker{display:block;border:5px solid #fff;border-radius:6px;box-shadow:0 6px 14px -4px rgba(40,25,5,.5);background:#fff}
+.sticker svg{display:block;width:100%;height:auto}
+.head{display:grid;justify-items:center;gap:18px;margin-bottom:48px;text-align:center}
+.head .strip{max-width:92%}
+section.block{padding:84px 0 40px}
+
+/* header */
+header.top{position:sticky;top:0;z-index:30;background:var(--paper);box-shadow:0 6px 16px -8px rgba(40,25,5,.5);border-bottom:3px dashed #c9b88e}
+header.top .wrap{display:flex;align-items:center;gap:24px;height:70px}
+.logo{font:900 22px var(--h);text-decoration:none;white-space:nowrap}
+nav.links{display:flex;gap:6px;margin-left:auto}
+nav.links a{font:700 13px var(--cond);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:7px 12px;border-radius:3px}
+nav.links a:nth-child(odd){transform:rotate(-1.5deg)} nav.links a:nth-child(even){transform:rotate(1.2deg)}
+nav.links a:hover{background:var(--yellow)}
+.langsw{display:flex;border:2px solid var(--ink);border-radius:4px;overflow:hidden;transform:rotate(1deg)}
+.langsw button{font:700 13px var(--cond);letter-spacing:.1em;border:0;background:transparent;color:var(--ink);padding:6px 12px;cursor:pointer}
+.langsw button[aria-pressed="true"]{background:var(--red);color:#fff}
+@media (max-width:900px){nav.links{display:none} .langsw{margin-left:auto}}
+
+/* hero */
+.hero{padding:70px 0 90px;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{margin:22px 0 28px;line-height:1.35;font-size:1px}
+.rn{display:inline-block;font-size:clamp(34px,6vw,70px);line-height:1;padding:.06em .12em .1em;margin:3px 2px;box-shadow:0 4px 8px -3px rgba(40,25,5,.5);color:var(--ink);background:var(--paper)}
+.rw{display:inline-block;white-space:nowrap}
+.rn.sp{width:.35em;background:none;box-shadow:none;padding:0}
+.hero .lede{max-width:34ch;font-size:19px;transform:rotate(-1deg);margin-bottom:6px}
+.hero .lede strong{background:linear-gradient(transparent 55%,rgba(246,214,90,.9) 55%)}
+.cta{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}
+.btn{display:inline-flex;align-items:center;font:700 15px var(--cond);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:15px 26px;border-radius:999px;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.btn.primary{background:var(--red);color:#fff} .btn.ghost{background:var(--paper);color:var(--ink)}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.portrait{position:relative;max-width:420px;width:100%;justify-self:center;margin:20px 0 40px}
+.polaroid{background:#fff;padding:14px 14px 58px;box-shadow:0 18px 34px -12px rgba(40,25,5,.6);transform:rotate(3deg);position:relative}
+.polaroid img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.polaroid .cap{position:absolute;left:0;right:0;bottom:12px;text-align:center;font:700 28px var(--hand)}
+.portrait .st{position:absolute;z-index:4}
+.portrait .uk{width:120px;top:-43px;right:-34px;transform:rotate(10deg)}
+.portrait .fr{width:92px;top:46%;left:-52px;transform:rotate(-9deg)}
+.portrait .es{width:92px;bottom:60px;right:-44px;transform:rotate(7deg)}
+.portrait .bubbles{position:absolute;z-index:5;width:60%;left: -26%;bottom: 71%;filter:drop-shadow(0 8px 12px rgba(0,0,0,.25))}
+.portrait .bubbles_2{position:absolute;z-index:5;width:60%;left: 67%;bottom: 64%;filter:drop-shadow(0 8px 12px rgba(0,0,0,.25))}
+.tiles{position:absolute;left:-8px;top:40px;display:flex;flex-direction:column;gap:6px;z-index:0}
+.deco{position:absolute;z-index:0;pointer-events:none}
+.deco.pencil{width:240px;left:3%;bottom:34px;transform:rotate(-8deg)}
+.deco.bulb{width:70px;left:38%;top:40px;transform:rotate(12deg)}
+.deco.plane{width:70px;right:46%;top:10px;transform:rotate(-12deg)}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr} .portrait{max-width:320px;margin:20px auto 50px} .portrait .uk{right:-18px} .portrait .fr{left:-24px} .portrait .es{right:-20px} .portrait .bubbles{left:-14%} .deco{display:none}}
+
+/* stats */
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.stat{width:100%;max-width:200px;justify-self:center;display:grid;place-content:center;text-align:center;aspect-ratio:1;border-radius:50%;box-shadow:0 10px 20px -8px rgba(40,25,5,.55);outline:3px dashed rgba(255,255,255,.85);outline-offset:-10px;padding:16px}
+.stat:nth-child(1){background:var(--red);color:#fff;transform:rotate(-5deg)} .stat:nth-child(2){background:var(--yellow);transform:rotate(4deg)} .stat:nth-child(3){background:var(--blue);color:#fff;transform:rotate(-3deg)} .stat:nth-child(4){background:var(--pink);transform:rotate(5deg)}
+.stat b{display:block;font:900 clamp(34px,5vw,54px)/1 var(--h)}
+.stat span{font:700 14px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase}
+@media (max-width:700px){.stats .wrap{grid-template-columns:1fr 1fr;gap:14px}}
+
+/* about */
+.about{display:grid;grid-template-columns:1.35fr .65fr;gap:40px;align-items:start}
+.about .lined{display:grid;gap:32px;font-size:18px;transform:rotate(-.6deg);padding-top:22px;padding-bottom:22px}
+.about .side{display:grid;gap:34px;padding-top:20px}
+.about .side .note:nth-child(1){transform:rotate(3deg)} .about .side .note:nth-child(2){transform:rotate(-2.5deg)}
+@media (max-width:900px){.about{grid-template-columns:1fr} .lined{padding-left:62px}}
+
+/* languages */
+.signs{background:var(--maroon);border-radius:6px;padding:40px;display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:center;box-shadow:0 18px 34px -14px rgba(40,25,5,.7);position:relative;border:6px solid #fffdf3;outline:2px solid rgba(40,25,5,.25)}
+.signs>img{width:100%;max-width:340px;margin:0 auto;aspect-ratio:736/760;object-fit:cover;object-position:center 52%}
+.langs{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.lang{background:var(--paper);padding:30px 20px 22px;display:grid;gap:8px;align-content:start;box-shadow:0 10px 20px -8px rgba(0,0,0,.6)}
+.lang:nth-child(1){transform:rotate(-2deg)} .lang:nth-child(2){transform:rotate(1.5deg)} .lang:nth-child(3){transform:rotate(1deg)} .lang:nth-child(4){transform:rotate(-1.5deg)}
+.lang .sticker{width:70px;transform:rotate(-4deg);margin-bottom:4px}
+.lang .lv{font:700 12px var(--cond);letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+.lang p{font-size:15.5px;line-height:1.45;color:var(--muted)}
+@media (max-width:900px){.signs{grid-template-columns:1fr;padding:28px 20px} .signs>img{max-width:240px}}
+@media (max-width:520px){.langs{grid-template-columns:1fr}}
+
+/* approach */
+.approach{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.approach .note{display:grid;gap:8px;align-content:start;min-height:230px}
+.approach .note:nth-child(1){transform:rotate(-2deg)} .approach .note:nth-child(2){transform:rotate(1.5deg)} .approach .note:nth-child(3){transform:rotate(-1deg)} .approach .note:nth-child(4){transform:rotate(2deg)}
+.approach .n{width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font:900 22px var(--h);margin-bottom:6px}
+.approach .note.k .n{background:var(--yellow);color:var(--ink)}
+.approach p{font-size:16px;line-height:1.45}
+@media (max-width:1000px){.approach{grid-template-columns:1fr 1fr}} @media (max-width:560px){.approach{grid-template-columns:1fr}}
+
+/* art */
+.art{padding:84px 0 40px}
+.art .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.art .polaroid{transform:rotate(-3deg);padding:14px 14px 56px}
+.art .polaroid svg{width:100%;height:auto;display:block}
+.art .lined{display:grid;gap:32px;transform:rotate(.8deg)}
+.art h2{margin:14px 0 20px}
+@media (max-width:900px){.art .wrap{grid-template-columns:1fr}}
+
+/* experience */
+.timeline{display:grid;gap:22px;max-width:900px;margin:0 auto}
+.row{display:grid;grid-template-columns:170px 1fr;background:var(--paper);box-shadow:0 8px 18px -8px rgba(40,25,5,.5);position:relative}
+.row:nth-child(odd){transform:rotate(-.5deg)} .row:nth-child(even){transform:rotate(.6deg)}
+.row .when{display:grid;place-items:center;text-align:center;padding:14px;background:var(--ink);color:#fff;font:700 17px var(--cond);letter-spacing:.08em;border-right:4px dotted var(--kraft)}
+.row:nth-child(3n+1) .when{background:var(--red)} .row:nth-child(3n+2) .when{background:var(--blue)}
+.row>div:last-child{padding:18px 24px}
+.row p{margin-top:4px;color:var(--muted);font-size:16px}
+@media (max-width:700px){.row{grid-template-columns:1fr} .row .when{border-right:0;border-bottom:4px dotted var(--kraft);padding:8px}}
+
+/* certificates */
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:38px}
+.chip{font:700 14px var(--cond);letter-spacing:.1em;text-transform:uppercase;padding:10px 16px;background:var(--paper);color:var(--ink);border:2px solid var(--ink);border-radius:3px;box-shadow:3px 3px 0 var(--ink);cursor:pointer}
+.chip:nth-child(odd){transform:rotate(-1.5deg)} .chip:nth-child(even){transform:rotate(1.2deg)}
+.chip small{margin-left:6px;opacity:.65}
+.chip[aria-pressed="true"]{background:var(--red);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:34px 26px}
+.card{display:grid;gap:8px;align-content:start;background:#fff;border:0;color:var(--ink);font:inherit;text-align:left;padding:12px 12px 14px;box-shadow:0 10px 20px -8px rgba(40,25,5,.55);cursor:pointer;position:relative;transition:transform .2s}
+.card:nth-child(4n+1){transform:rotate(-1.8deg)} .card:nth-child(4n+2){transform:rotate(1.2deg)} .card:nth-child(4n+3){transform:rotate(-.7deg)} .card:nth-child(4n){transform:rotate(1.8deg)}
+.card::before{content:"";position:absolute;top:-10px;left:50%;width:64px;height:20px;margin-left:-32px;background:rgba(244,226,150,.8);transform:rotate(-3deg);box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.card:hover{transform:rotate(0) scale(1.04);z-index:2}
+.card .img{aspect-ratio:4/3;background:#f1ecdc;display:grid;place-items:center;overflow:hidden}
+.card img{max-height:100%;width:auto;margin:auto;object-fit:contain}
+.card .t{font:700 14px/1.3 var(--body);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .m{font:700 20px/1 var(--hand);color:var(--muted)}
+.more{display:flex;justify-content:center;margin-top:40px}
+.more [hidden]{display:none}
+.card[hidden]{display:none}
+.note.small{background:none;box-shadow:none;text-align:center;padding:0;margin-top:34px;font:700 24px var(--hand)}
+.lb{position:fixed;inset:0;background:rgba(20,12,4,.92);display:none;z-index:50;padding:24px}
+.lb.open{display:grid;grid-template-rows:auto 1fr auto;gap:12px}
+.lb .bar{display:flex;justify-content:space-between;align-items:center;color:#fff;gap:16px}
+.lb .cap small{display:block;color:#cbbfa8}
+.lb button{font:700 14px var(--cond);letter-spacing:.1em;text-transform:uppercase;background:var(--paper);color:var(--ink);border:2px solid var(--ink);border-radius:3px;padding:10px 16px;cursor:pointer}
+.lb .stage{display:grid;place-items:center;min-height:0}
+.lb .stage img{max-height:100%;max-width:100%;object-fit:contain;border:10px solid #fff;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.lb .nav{display:flex;justify-content:center;gap:12px}
+
+/* contact postcard */
+.contact{padding:84px 0 70px}
+.postcard{max-width:860px;margin:0 auto;background:var(--paper);padding:44px 44px 40px;border:16px solid transparent;border-image:repeating-linear-gradient(135deg,var(--red) 0 16px,#fff 16px 32px,var(--blue) 32px 48px,#fff 48px 64px) 16;box-shadow:0 18px 34px -12px rgba(40,25,5,.6);transform:rotate(-1deg);display:grid;grid-template-columns:1fr 150px;gap:30px;position:relative}
+.postcard h2{margin:16px 0 18px;font-size:clamp(30px,4.5vw,48px)}
+.postcard a.mail{font:700 clamp(30px,5vw,50px)/1.1 var(--hand);text-decoration:underline wavy var(--red);text-underline-offset:8px;word-break:break-all}
+.postcard .loc{margin-top:18px;font:700 14px var(--cond);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.postmark{justify-self:end;text-align:center}
+.postmark .sticker{width:110px;border-radius:2px;border:6px solid #fff;outline:2px dashed #999;outline-offset:0;transform:rotate(4deg);margin-left:auto}
+.postmark .ring{margin:12px 0 0 auto;width:110px;height:110px;border:3px solid rgba(29,27,43,.55);border-radius:50%;display:grid;place-content:center;font:700 13px/1.2 var(--cond);letter-spacing:.12em;color:rgba(29,27,43,.6);transform:rotate(-12deg)}
+@media (max-width:700px){.postcard{grid-template-columns:1fr;padding:30px 22px} .postmark{display:none}}
+footer{padding:22px 0 30px;text-align:center;font:700 14px var(--cond);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;scroll-behavior:auto !important}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+<a class="logo" href="#top"><span class="ru">Ирина Журавлева</span><span class="en">Irina Zhuravleva</span></a>
+<nav class="links" aria-label="Разделы">
+<a href="#about"><span class="ru">О себе</span><span class="en">About</span></a><a href="#languages"><span class="ru">Языки</span><span class="en">Languages</span></a><a href="#experience"><span class="ru">Опыт</span><span class="en">Experience</span></a><a href="#certificates"><span class="ru">Сертификаты</span><span class="en">Certificates</span></a><a href="#contact"><span class="ru">Контакты</span><span class="en">Contact</span></a>
+</nav>
+<div class="langsw" role="group" aria-label="Language"><button id="b-ru" type="button" aria-pressed="true">RU</button><button id="b-en" type="button" aria-pressed="false">EN</button></div>
+</div></header>
+
+<main id="top">
+<section class="hero">
+<svg class="deco pencil" viewBox="0 0 240 28" aria-hidden="true"><rect x="0" y="4" width="190" height="20" fill="#7fd1a8" stroke="#1d1b2b" stroke-width="2"/><path d="M190 4l40 10-40 10Z" fill="#f3d9a6" stroke="#1d1b2b" stroke-width="2"/><path d="M220 11l10 3-10 3Z" fill="#1d1b2b"/><rect x="0" y="4" width="22" height="20" fill="#d6322b" stroke="#1d1b2b" stroke-width="2"/></svg><svg class="deco bulb" viewBox="0 0 60 80" aria-hidden="true"><circle cx="30" cy="30" r="24" fill="#f6d65a" stroke="#1d1b2b" stroke-width="2.5"/><path d="M22 34l8-10 8 10M30 24v26" stroke="#1d1b2b" stroke-width="2.5" fill="none"/><rect x="20" y="54" width="20" height="14" rx="2" fill="#2a4fa3" stroke="#1d1b2b" stroke-width="2.5"/><path d="M24 74h12" stroke="#1d1b2b" stroke-width="3"/></svg><svg class="deco plane" viewBox="0 0 80 40" aria-hidden="true"><path d="M2 22L76 6 44 36 38 24 22 28Z" fill="#fff" stroke="#1d1b2b" stroke-width="2.5" stroke-linejoin="round"/><path d="M76 6L38 24" stroke="#1d1b2b" stroke-width="2.5"/></svg>
+<div class="wrap">
+<div>
+<div class="label"><span class="ru">Преподаватель языков · Лондон</span><span class="en">Language teacher · London</span></div>
+<h1 class="ransom" aria-label="Ирина Журавлева"><span class="ru">Ирина Журавлева</span><span class="en">Irina Zhuravleva</span></h1>
+<p class="lede lined tape tl"><span class="ru">Русский, французский, испанский и английский — <strong>для детей, подростков и взрослых</strong>, в группах и индивидуально, очно и онлайн.</span><span class="en">Russian, French, Spanish and English <strong>for children, teenagers and adults</strong>, in groups and one-to-one, in person and online.</span></p>
+<div class="cta"><a class="btn primary" href="#contact"><span class="ru">Написать мне</span><span class="en">Get in touch</span></a><a class="btn ghost" href="#certificates"><span class="ru">Сертификаты</span><span class="en">Certificates</span></a></div>
+</div>
+<div class="portrait">
+<div class="polaroid tape"><img src="avatar.jpg" alt="Ирина Журавлева / Irina Zhuravleva"><div class="cap"><span class="ru">Лондон · London</span><span class="en">London · Лондон</span></div></div>
+<div class="sticker st uk"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#1f3a93"/><path d="M0 0L60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0L60 40M60 0L0 40" stroke="#d6322b" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="14"/><path d="M30 0v40M0 20h60" stroke="#d6322b" stroke-width="8"/></svg></div><div class="sticker st fr"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="20" height="40" fill="#2a4fa3"/><rect x="20" width="20" height="40" fill="#fff"/><rect x="40" width="20" height="40" fill="#d6322b"/></svg></div><div class="sticker st es"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#c8312b"/><rect y="10" width="60" height="20" fill="#f6c933"/></svg></div>
+<svg viewBox="0 0 300 200" aria-hidden="true" class="bubbles">
+  <g font-family="Caveat,cursive" font-weight="700" font-size="30">
+    <g>
+      <rect x="150" y="40" width="136" height="50" rx="25" fill="#d6322b" stroke="#1d1b2b" stroke-width="2.5" />
+      <path d="M250 88l8 16-22-14" fill="#d6322b" stroke="#1d1b2b" stroke-width="2.5" /><text x="218" y="74"
+        text-anchor="middle" fill="#fff">Bonjour !</text>
+    </g>
+    <g>
+      <rect x="158" y="128" width="120" height="50" rx="25" fill="#fff" stroke="#1d1b2b" stroke-width="2.5" /><text
+        x="218" y="162" text-anchor="middle" fill="#1d1b2b">Hello!</text>
+    </g>
+  </g>
+</svg>
+<svg viewBox="0 0 300 200" aria-hidden="true" class="bubbles_2">
+  <g font-family="Caveat,cursive" font-weight="700" font-size="30">
+    <g>
+      <rect x="10" y="12" width="128" height="50" rx="25" fill="#f6d65a" stroke="#1d1b2b" stroke-width="2.5" />
+      <path d="M40 60l-6 16 22-14" fill="#f6d65a" stroke="#1d1b2b" stroke-width="2.5" /><text x="74" y="46"
+        text-anchor="middle" fill="#1d1b2b">Привет!</text>
+    </g>
+    <g>
+      <rect x="22" y="104" width="112" height="50" rx="25" fill="#2a4fa3" stroke="#1d1b2b" stroke-width="2.5" />
+      <path d="M50 152l-6 16 22-14" fill="#2a4fa3" stroke="#1d1b2b" stroke-width="2.5" /><text x="78" y="138"
+        text-anchor="middle" fill="#fff">¡Hola!</text>
+    </g>
+  </g>
+</svg>
+</div>
+</div>
+</section>
+
+<section class="stats"><div class="wrap">
+<div class="stat"><b>4</b><span><span class="ru">языка</span><span class="en">languages</span></span></div>
+<div class="stat"><b>10+</b><span><span class="ru">лет опыта</span><span class="en">years of experience</span></span></div>
+<div class="stat"><b>120</b><span><span class="ru">сертификатов</span><span class="en">certificates</span></span></div>
+<div class="stat"><b>6–70</b><span><span class="ru">возраст учеников</span><span class="en">learners' age</span></span></div>
+</div></section>
+
+<section class="block" id="about"><div class="wrap">
+<div class="head"><span class="label"><span class="ru">О себе</span><span class="en">About me</span></span><div class="strip tape"><h2><span class="ru">Язык — это живое общение с первого урока</span><span class="en">Language is live conversation from the very first lesson</span></h2></div></div>
+<div class="about">
+<div class="lined tape">
+<div class="ru"><p>Русский — мой родной язык. Я окончила переводческий факультет Московского государственного лингвистического университета (французский и испанский) и факультет журналистики Московского международного университета.</p></div><div class="en"><p>Russian is my native language. I graduated from Moscow State Linguistic University with a degree in Translation and Interpreting (French and Spanish) and hold a second degree in Journalism from Moscow International University.</p></div>
+<div class="ru"><p>Больше десяти лет я преподаю языки: в языковой школе YES в Королёве, где занималась с учениками от 6 до 70 лет, затем частным образом. Сейчас живу в Лондоне, преподаю русский язык детям 5–10 лет в субботней школе и веду онлайн-занятия по французскому.</p></div><div class="en"><p>I have been teaching languages for more than ten years: at YES Language School in Korolyov, with learners aged 6 to 70, and then as a private tutor. I now live in London, where I teach Russian to children aged 5–10 at a Saturday school and give online French lessons.</p></div>
+<div class="ru"><p>На уроках я использую коммуникативный подход: ученики с первых занятий говорят на изучаемом языке, а программа подстраивается под их возраст, цели и темп.</p></div><div class="en"><p>I use a communicative approach: learners speak the target language from the first lessons, and the course adapts to their age, goals and pace.</p></div>
+</div>
+<div class="side">
+<div class="note y tape"><p class="hand"><span class="ru">Не бойтесь ошибаться — говорите смелее!</span><span class="en">Don't be afraid to make mistakes — speak up!</span></p></div>
+<div class="note k tape pink"><p class="hand"><span class="ru">Учим, говорим, думаем на новом языке</span><span class="en">Learn it, speak it, think in it</span></p></div>
+</div>
+</div>
+</div></section>
+
+<section class="block" id="languages"><div class="wrap">
+<div class="head"><span class="label"><span class="ru">Языки</span><span class="en">Languages</span></span><div class="strip tape"><h2><span class="ru">Чему я учу</span><span class="en">What I teach</span></h2></div></div>
+<div class="signs">
+<img src="signpost.jpeg" alt="">
+<div class="langs">
+<div class="lang tape"><div class="sticker st "><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="14" fill="#fff"/><rect y="13" width="60" height="14" fill="#2a4fa3"/><rect y="26" width="60" height="14" fill="#d6322b"/></svg></div><div class="lv"><span class="ru">Родной</span><span class="en">Native</span></div><h3><span class="ru">Русский</span><span class="en">Russian</span></h3><p class="ru">Дети 5–10 лет в Лондоне: устная речь, чтение и письмо в небольших группах.</p><p class="en">Children aged 5–10 in London: speaking, reading and writing in small groups.</p></div>
+<div class="lang tape"><div class="sticker st "><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="20" height="40" fill="#2a4fa3"/><rect x="20" width="20" height="40" fill="#fff"/><rect x="40" width="20" height="40" fill="#d6322b"/></svg></div><div class="lv">C1</div><h3><span class="ru">Французский</span><span class="en">French</span></h3><p class="ru">Дети, подростки и взрослые. Индивидуально и в группах, очно и онлайн.</p><p class="en">Children, teenagers and adults. One-to-one and groups, in person and online.</p></div>
+<div class="lang tape"><div class="sticker st "><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#c8312b"/><rect y="10" width="60" height="20" fill="#f6c933"/></svg></div><div class="lv">B2 · DELE</div><h3><span class="ru">Испанский</span><span class="en">Spanish</span></h3><p class="ru">Общий курс для подростков и взрослых, акцент на разговорной практике.</p><p class="en">General Spanish for teenagers and adults, with a focus on speaking practice.</p></div>
+<div class="lang tape"><div class="sticker st "><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#1f3a93"/><path d="M0 0L60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0L60 40M60 0L0 40" stroke="#d6322b" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="14"/><path d="M30 0v40M0 20h60" stroke="#d6322b" stroke-width="8"/></svg></div><div class="lv">B2 · TKT</div><h3><span class="ru">Английский</span><span class="en">English</span></h3><p class="ru">Общий английский и подготовка к экзаменам по методике Cambridge.</p><p class="en">General English and exam preparation using Cambridge methodology.</p></div>
+</div>
+</div>
+</div></section>
+
+<section class="block"><div class="wrap">
+<div class="head"><span class="label"><span class="ru">Подход</span><span class="en">Approach</span></span><div class="strip tape"><h2><span class="ru">Как проходят занятия</span><span class="en">How lessons work</span></h2></div></div>
+<div class="approach">
+<div class="note y tape"><span class="n">1</span><h3><span class="ru">Говорим с первого урока</span><span class="en">Speaking from day one</span></h3><p class="ru">Коммуникативная методика и максимум изучаемого языка на занятии.</p><p class="en">Communicative methodology and as much target language as possible.</p></div>
+<div class="note p tape blue"><span class="n">2</span><h3><span class="ru">Урок под ученика</span><span class="en">Lessons that fit the learner</span></h3><p class="ru">Учитываю возраст, уровень, цели и темп; адаптирую материалы.</p><p class="en">I take age, level, goals and pace into account and adapt materials.</p></div>
+<div class="note s tape"><span class="n">3</span><h3><span class="ru">Очно и онлайн</span><span class="en">In person and online</span></h3><p class="ru">Занятия в классе или по Microsoft Teams и Skype.</p><p class="en">Classroom lessons or online via Microsoft Teams and Skype.</p></div>
+<div class="note k tape pink"><span class="n">4</span><h3><span class="ru">Доброжелательная атмосфера</span><span class="en">A supportive atmosphere</span></h3><p class="ru">Ученик не боится ошибаться и свободно высказывает мысли.</p><p class="en">Learners feel safe to make mistakes and express their ideas.</p></div>
+</div>
+</div></section>
+
+<section class="art"><div class="wrap">
+<div class="polaroid tape"><svg viewBox="0 0 420 300" role="img" aria-label="Натюрморт: лимон, виноград и бокал"><defs><radialGradient id="g1" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#3a4a3f"/><stop offset="1" stop-color="#121815"/></radialGradient><linearGradient id="lem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3D36B"/><stop offset="1" stop-color="#C9962A"/></linearGradient></defs>
+<rect width="420" height="300" fill="url(#g1)"/><rect y="222" width="420" height="78" fill="#2a1d18"/><rect y="222" width="420" height="6" fill="#4a352b"/>
+<ellipse cx="250" cy="226" rx="120" ry="16" fill="#8d9692"/><ellipse cx="250" cy="222" rx="104" ry="11" fill="#b5bcb7"/>
+<path d="M118 120c10-6 22 2 24 14 4 18-6 46-12 70-2 8-6 18-12 18s-10-10-12-18c-6-24-16-52-12-70 2-12 14-20 24-14Z" fill="#cfe0d6" opacity=".35"/><rect x="113" y="214" width="10" height="14" fill="#9fb3a7" opacity=".6"/><ellipse cx="118" cy="230" rx="22" ry="5" fill="#9fb3a7" opacity=".55"/>
+<g fill="#5E2A3A"><circle cx="300" cy="170" r="14"/><circle cx="324" cy="176" r="14"/><circle cx="312" cy="194" r="14"/><circle cx="288" cy="192" r="14"/><circle cx="336" cy="196" r="13"/><circle cx="300" cy="212" r="13"/><circle cx="324" cy="212" r="13"/></g><g fill="#8b4a5c" opacity=".7"><circle cx="296" cy="166" r="4"/><circle cx="320" cy="172" r="4"/><circle cx="308" cy="190" r="4"/></g>
+<path d="M312 156c4-14 18-22 34-20-6 12-18 20-34 20Z" fill="#4f6b3c"/><path d="M312 156c-2-8 0-14 6-18" stroke="#6b5233" stroke-width="3" fill="none"/>
+<ellipse cx="220" cy="200" rx="46" ry="30" fill="url(#lem)"/><path d="M262 196c14 4 22 14 30 26-12 2-24-2-32-10" fill="#E8C150"/><path d="M262 196c8 8 10 16 8 24" stroke="#fff5cf" stroke-width="2" fill="none"/><ellipse cx="206" cy="188" rx="14" ry="6" fill="#fff4c4" opacity=".55"/>
+<circle cx="186" cy="221" r="9" fill="#C9962A"/></svg><div class="cap"><span class="ru">Фламандский натюрморт</span><span class="en">Flemish still life</span></div></div>
+<div>
+<span class="label"><span class="ru">Искусство</span><span class="en">Art</span></span>
+<div class="strip tape" style="margin:18px 0 26px"><h2><span class="ru">Фламандский натюрморт как повод заговорить</span><span class="en">A Flemish still life as a reason to talk</span></h2></div>
+<div class="lined tape tr">
+<div class="ru"><p>Я занималась рисованием в художественных студиях Петербурга, писала акрилом и маслом, в том числе копии натюрмортов фламандских мастеров.</p><p>Фламандская живопись — одно из моих любимых направлений, а коллекция Ашмолеанского музея в Оксфорде — место, куда я возвращаюсь снова и снова. Картину можно описать, сравнить, о ней можно поспорить — и всё это на изучаемом языке.</p></div><div class="en"><p>I studied drawing and painting at art studios in St Petersburg, working in acrylic and oil, including copies of Flemish still lifes.</p><p>Flemish painting is one of my favourite schools, and the Ashmolean Museum in Oxford is a place I return to again and again. A painting can be described, compared and debated, all in the language being learned.</p></div>
+</div>
+</div>
+</div></section>
+
+<section class="block" id="experience"><div class="wrap">
+<div class="head"><span class="label"><span class="ru">Опыт и образование</span><span class="en">Experience &amp; education</span></span><div class="strip tape"><h2><span class="ru">Путь</span><span class="en">Background</span></h2></div></div>
+<div class="timeline">
+<div class="row"><div class="when"><span class="ru">2026 — сейчас</span><span class="en">2026 — now</span></div><div><h3><span class="ru">Преподаватель русского языка</span><span class="en">Russian language teacher</span></h3><p class="ru">Субботняя школа, Лондон. Дети 5–10 лет, группы по 6–8 человек.</p><p class="en">Saturday school, London. Children aged 5–10, groups of 6–8.</p></div></div>
+<div class="row"><div class="when"><span class="ru">2014 — сейчас</span><span class="en">2014 — now</span></div><div><h3><span class="ru">Частный преподаватель</span><span class="en">Private language tutor</span></h3><p class="ru">Французский, испанский и английский для подростков и взрослых. С 2022 года — онлайн-занятия по французскому (Microsoft Teams, Skype).</p><p class="en">French, Spanish and English for teenagers and adults. Online French lessons since 2022 (Microsoft Teams, Skype).</p></div></div>
+<div class="row"><div class="when">2012 — 2014</div><div><h3><span class="ru">Языковая школа YES, Королёв</span><span class="en">YES Language School, Korolyov</span></h3><p class="ru">Французский, испанский и английский; группы и индивидуальные занятия; ученики от 6 до 70 лет.</p><p class="en">French, Spanish and English; group and individual lessons; learners aged 6 to 70.</p></div></div>
+<div class="row"><div class="when">2008 — 2011</div><div><h3><span class="ru">Московский международный университет</span><span class="en">Moscow International University</span></h3><p class="ru">Факультет журналистики.</p><p class="en">Degree in Journalism.</p></div></div>
+<div class="row"><div class="when">2006 — 2008</div><div><h3><span class="ru">FM Logistic, переводчик французского</span><span class="en">FM Logistic, French translator</span></h3><p class="ru">Письменный и устный перевод, деловая документация.</p><p class="en">Written and oral translation, business documents.</p></div></div>
+<div class="row"><div class="when"><span class="ru">МГЛУ</span><span class="en">MSLU</span></div><div><h3><span class="ru">Московский государственный лингвистический университет</span><span class="en">Moscow State Linguistic University</span></h3><p class="ru">Переводческий факультет, французский и испанский языки.</p><p class="en">Degree in Translation and Interpreting, French and Spanish.</p></div></div>
+</div>
+</div></section>
+
+<section class="block" id="certificates"><div class="wrap">
+<div class="head"><span class="label"><span class="ru">Сертификаты</span><span class="en">Certificates</span></span><div class="strip tape"><h2><span class="ru">Постоянно учусь сама</span><span class="en">Always learning</span></h2></div></div>
+<div class="chips" role="group" aria-label="Filter">
+<button class="chip" type="button" data-f="all" aria-pressed="true"><span class="ru">Все</span><span class="en">All</span><small>119</small></button>
+<button class="chip" type="button" data-f="qual" aria-pressed="false"><span class="ru">Квалификации и курсы</span><span class="en">Qualifications &amp; courses</span><small>8</small></button>
+<button class="chip" type="button" data-f="conf" aria-pressed="false"><span class="ru">Конференции</span><span class="en">Conferences</span><small>7</small></button>
+<button class="chip" type="button" data-f="en" aria-pressed="false"><span class="ru">Английский</span><span class="en">English</span><small>95</small></button>
+<button class="chip" type="button" data-f="es" aria-pressed="false"><span class="ru">Испанский</span><span class="en">Spanish</span><small>7</small></button>
+<button class="chip" type="button" data-f="fr" aria-pressed="false"><span class="ru">Французский</span><span class="en">French</span><small>2</small></button>
+</div>
+<div class="grid" id="grid"></div>
+<div class="more"><button class="btn primary" type="button" id="more" hidden></button></div>
+<div class="note small ru"><p>Диплом DELE B2 (Институт Сервантеса, 2012) — по запросу.</p></div><div class="note small en"><p>DELE B2 diploma (Instituto Cervantes, 2012) available on request.</p></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+<div class="postcard">
+<div>
+<span class="label"><span class="ru">Контакты</span><span class="en">Contact</span></span>
+<h2><span class="ru">Буду рада знакомству</span><span class="en">I'd be glad to hear from you</span></h2>
+<a class="mail" href="mailto:iravizion@gmail.com">iravizion@gmail.com</a>
+<p class="loc"><span class="ru">Лондон, Великобритания</span><span class="en">London, United Kingdom</span></p>
+</div>
+<div class="postmark"><div class="sticker st "><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#1f3a93"/><path d="M0 0L60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0L60 40M60 0L0 40" stroke="#d6322b" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="14"/><path d="M30 0v40M0 20h60" stroke="#d6322b" stroke-width="8"/></svg></div><div class="ring"><span>LONDON<br>★<br>UK</span></div></div>
+</div>
+</div></section>
+</main>
+<footer>© <span id="year">2026</span> <span class="ru">Ирина Журавлева</span><span class="en">Irina Zhuravleva</span></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Certificate">
+<div class="bar"><div class="cap" id="lbcap"></div><button type="button" id="lbclose"><span class="ru">Закрыть</span><span class="en">Close</span> ✕</button></div>
+<div class="stage"><img id="lbimg" alt=""></div>
+<div class="nav"><button type="button" id="lbprev">← <span class="ru">Назад</span><span class="en">Previous</span></button><button type="button" id="lbnext"><span class="ru">Вперёд</span><span class="en">Next</span> →</button></div>
+</div>
+
+<script>
+const ITEMS=[{"id": "1012211255502318", "title": "Благодарственное письмо|Letter of appreciation", "org": "YES Language School", "year": null, "cat": "qual", "w": 989, "h": 1400}, {"id": "1012211522168958", "title": "How to Prepare Students for the IELTS Exam, 18 ч|How to Prepare Students for the IELTS Exam, 18 hours", "org": "Language Link", "year": "2015", "cat": "qual", "w": 989, "h": 1400}, {"id": "1012211532168957", "title": "English for the Teacher: Upper-Intermediate, 28 ч|English for the Teacher: Upper-Intermediate, 28 hours", "org": "Language Link", "year": "2015", "cat": "qual", "w": 989, "h": 1400}, {"id": "1012212605502183", "title": "Cambridge TKT Module 1", "org": "Cambridge English", "year": "2015", "cat": "qual", "w": 989, "h": 1400}, {"id": "1045191312204312", "title": "Effective Strategies for Teaching English at the University", "org": "Macmillan", "year": "2016", "cat": "conf", "w": 990, "h": 1400}, {"id": "1045191395537637", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 907}, {"id": "1047047678685342", "title": "От практики на уроке к успеху на экзамене", "org": "Macmillan", "year": "2016", "cat": "conf", "w": 990, "h": 1400}, {"id": "1047048452018598", "title": "Hablando se entiende la gente: la interacción oral en el aula de ELE", "org": "Edelsa", "year": "2016", "cat": "es", "w": 1400, "h": 989}, {"id": "1047048932018550", "title": "El desarrollo de la competencia gramatical en alumnos adolescentes", "org": "Edelsa", "year": "2016", "cat": "es", "w": 1400, "h": 989}, {"id": "1049683055088471", "title": "Digital Friday", "org": "Macmillan", "year": "2016", "cat": "en", "w": 990, "h": 1400}, {"id": "1053652961358147", "title": "Удостоверение о повышении квалификации, 16 ч|Professional Development Certificate, 16 hours", "org": "МГЛУ|MSLU", "year": "2016", "cat": "qual", "w": 1400, "h": 989}, {"id": "1066099930113450", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 1008}, {"id": "1067406993316077", "title": "Звездный английский", "org": "Просвещение|Prosveshcheniye", "year": null, "cat": "en", "w": 1400, "h": 991}, {"id": "1070834262973350", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 1001}, {"id": "1071381736251936", "title": "", "org": "", "year": "2016", "cat": "es", "w": 1400, "h": 965}, {"id": "1071484182908358", "title": "Лучший курс на лето", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 863}, {"id": "1081850615205048", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 989, "h": 1400}, {"id": "1084244368299006", "title": "Cambridge TKT Module 2", "org": "Cambridge English", "year": "2016", "cat": "qual", "w": 989, "h": 1400}, {"id": "1085090351547741", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 1008}, {"id": "1098761303513979", "title": "Beyond the Classroom: Involving Parents in Learning", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1050, "h": 1400}, {"id": "1098761310180645", "title": "Preparing for the CAE Exam, 30 ч|Preparing for the CAE Exam, 30 hours", "org": "Language Link", "year": "2016", "cat": "qual", "w": 989, "h": 1400}, {"id": "1129652250424884", "title": "", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1050, "h": 1400}, {"id": "1151986588191450", "title": "", "org": "Macmillan", "year": "2016", "cat": "conf", "w": 1400, "h": 1050}, {"id": "1170406753016100", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 1050}, {"id": "1181516575238451", "title": "", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1050, "h": 1400}, {"id": "1194890937234348", "title": "", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1050, "h": 1400}, {"id": "1198244530232322", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 1073, "h": 1400}, {"id": "1198244533565655", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 1076, "h": 1400}, {"id": "1198244536898988", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 993}, {"id": "1199189756804466", "title": "Supporting ELL Transition to Communicating at the University Level", "org": "Pearson", "year": "2016", "cat": "en", "w": 1309, "h": 1358}, {"id": "1203990796324362", "title": "New Insights into Practice for the Grammar Classroom", "org": "Pearson", "year": "2016", "cat": "en", "w": 1332, "h": 1400}, {"id": "1203990799657695", "title": "Five Frameworks for Developing Listening Skills", "org": "Pearson", "year": "2016", "cat": "en", "w": 1333, "h": 1400}, {"id": "1203990802991028", "title": "A Skills Repertoire for Successful University Reading", "org": "Pearson", "year": "2016", "cat": "en", "w": 1334, "h": 1400}, {"id": "1204937189563056", "title": "", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1050, "h": 1400}, {"id": "1204939712896137", "title": "The Global Scale of English: Research Support for Learning Outcomes", "org": "Pearson", "year": "2016", "cat": "en", "w": 1322, "h": 1400}, {"id": "1227709793952462", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 1086, "h": 1400}, {"id": "1227709797285795", "title": "", "org": "Macmillan", "year": "2016", "cat": "en", "w": 1400, "h": 979}, {"id": "1229433277113447", "title": "Managing Classroom Dynamics", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1092, "h": 1400}, {"id": "1229433463780095", "title": "IATEFL / TESOL Joint Web Conference", "org": "IATEFL", "year": "2016", "cat": "conf", "w": 1049, "h": 1400}, {"id": "1265656353491139", "title": "Supporting Students with Dyslexia", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1093, "h": 1400}, {"id": "1265656356824472", "title": "Pronunciation Matters", "org": "Oxford University Press", "year": "2016", "cat": "en", "w": 1096, "h": 1400}, {"id": "1305090579547716", "title": "", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1054, "h": 1400}, {"id": "1315029488553825", "title": "ELT Upgrade: Practices and Innovations", "org": "Macmillan", "year": "2017", "cat": "conf", "w": 1400, "h": 981}, {"id": "1328327263890714", "title": "Assessment in the Language Classroom", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1107, "h": 1400}, {"id": "1328327270557380", "title": "", "org": "RELOD", "year": "2017", "cat": "en", "w": 948, "h": 1400}, {"id": "1336864899703617", "title": "Расширяем лексический запас с Solutions 2nd", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 987, "h": 1400}, {"id": "1336864903036950", "title": "", "org": "RELOD", "year": "2017", "cat": "en", "w": 987, "h": 1400}, {"id": "1339852096071564", "title": "", "org": "", "year": "2017", "cat": "en", "w": 990, "h": 1400}, {"id": "1342327925823981", "title": "Rainbow English", "org": "Российский учебник|Russian Textbook Corp.", "year": "2017", "cat": "en", "w": 990, "h": 1400}, {"id": "1351087164948057", "title": "", "org": "", "year": "2017", "cat": "en", "w": 990, "h": 1400}, {"id": "1351087168281390", "title": "Rainbow English", "org": "Российский учебник|Russian Textbook Corp.", "year": "2017", "cat": "en", "w": 990, "h": 1400}, {"id": "1355038111219629", "title": "", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1066, "h": 1400}, {"id": "1389680141088759", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 1045, "h": 1400}, {"id": "1402228766500563", "title": "", "org": "", "year": "2017", "cat": "es", "w": 1400, "h": 951}, {"id": "1402228769833896", "title": "Oxford Word Skills", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 957, "h": 1400}, {"id": "1402228773167229", "title": "Урок иностранного языка: каким он должен быть сегодня. Требования ФГОС", "org": "RELOD", "year": "2017", "cat": "en", "w": 959, "h": 1400}, {"id": "1407391142650992", "title": "Giving Children More Agency in English Classes", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1101, "h": 1400}, {"id": "1407391145984325", "title": "Show and Tell", "org": "RELOD", "year": "2017", "cat": "en", "w": 948, "h": 1400}, {"id": "1437925659597540", "title": "Преодоление языкового барьера: психологические, педагогические и методические аспекты", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 970, "h": 1400}, {"id": "1440379289352177", "title": "", "org": "Cambridge", "year": "2017", "cat": "en", "w": 637, "h": 831}, {"id": "1440380709352035", "title": "CLIL (предметно-языковое интегрированное обучение) в преподавании английского языка", "org": "", "year": null, "cat": "en", "w": 528, "h": 749}, {"id": "1440651369324969", "title": "", "org": "", "year": null, "cat": "en", "w": 526, "h": 748}, {"id": "1470368663019906", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1123, "h": 794}, {"id": "1470368756353230", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1124, "h": 794}, {"id": "1470368833019889", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1125, "h": 794}, {"id": "1470368853019887", "title": "Storytelling and Story-making for Young Learners", "org": "Cambridge", "year": null, "cat": "en", "w": 530, "h": 749}, {"id": "1470460583010714", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1123, "h": 793}, {"id": "1470460726344033", "title": "Звездный английский 5-9", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1123, "h": 796}, {"id": "1470460789677360", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1123, "h": 795}, {"id": "1472579246132181", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1208, "h": 853}, {"id": "1472579402798832", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1208, "h": 854}, {"id": "1472579626132143", "title": "", "org": "Просвещение|Prosveshcheniye", "year": null, "cat": "en", "w": 900, "h": 634}, {"id": "1474017489321690", "title": "Первые шаги в военной карьере", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1124, "h": 797}, {"id": "1474017899321649", "title": "Советы и стратегии для составления плана увлекательного урока", "org": "", "year": null, "cat": "en", "w": 529, "h": 750}, {"id": "1477969248926514", "title": "Английский в фокусе", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1125, "h": 796}, {"id": "1477969298926509", "title": "Английский в фокусе", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1125, "h": 795}, {"id": "1477969495593156", "title": "Английский в фокусе", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1122, "h": 793}, {"id": "1479073892149383", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1125, "h": 794}, {"id": "1479074162149356", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1124, "h": 795}, {"id": "1480214855368620", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1124, "h": 791}, {"id": "1480260542030718", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1122, "h": 795}, {"id": "1487746631282109", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2017", "cat": "en", "w": 1124, "h": 795}, {"id": "1504634442926661", "title": "", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1073, "h": 1400}, {"id": "1504746962915409", "title": "", "org": "SGEL", "year": "2017", "cat": "es", "w": 989, "h": 1400}, {"id": "1504746966248742", "title": "", "org": "", "year": "2017", "cat": "es", "w": 989, "h": 1400}, {"id": "1504746969582075", "title": "", "org": "SGEL", "year": "2017", "cat": "es", "w": 989, "h": 1400}, {"id": "1505683972821708", "title": "", "org": "Cambridge", "year": "2017", "cat": "en", "w": 1062, "h": 1400}, {"id": "1556264464430325", "title": "The Teenage Brain", "org": "Pearson", "year": null, "cat": "en", "w": 1072, "h": 1400}, {"id": "1556264467763658", "title": "", "org": "Pearson", "year": null, "cat": "en", "w": 1072, "h": 1400}, {"id": "1578460118877426", "title": "", "org": "", "year": "2017", "cat": "en", "w": 842, "h": 631}, {"id": "1594216420635129", "title": "", "org": "Cambridge", "year": "2018", "cat": "en", "w": 989, "h": 1400}, {"id": "1601468166576621", "title": "Mixed-Level IELTS Classes", "org": "Pearson", "year": "2017", "cat": "en", "w": 1066, "h": 1400}, {"id": "1629987643724673", "title": "IATEFL Web Conference", "org": "IATEFL", "year": "2017", "cat": "conf", "w": 858, "h": 1400}, {"id": "1638615969528507", "title": "", "org": "Oxford University Press", "year": "2017", "cat": "en", "w": 1082, "h": 1400}, {"id": "1651451571578280", "title": "Rainbow English", "org": "Российский учебник|Russian Textbook Corp.", "year": "2017", "cat": "en", "w": 986, "h": 1400}, {"id": "1656841714372599", "title": "Storytelling with Young Learners", "org": "Language Link", "year": "2016", "cat": "qual", "w": 989, "h": 1400}, {"id": "1656842517705852", "title": "", "org": "Cambridge", "year": "2016", "cat": "en", "w": 989, "h": 1400}, {"id": "1657797480943689", "title": "", "org": "RELOD", "year": null, "cat": "en", "w": 432, "h": 610}, {"id": "1687038144686289", "title": "", "org": "Cambridge", "year": "2018", "cat": "en", "w": 850, "h": 1200}, {"id": "1688240181232752", "title": "", "org": "", "year": "2018", "cat": "en", "w": 990, "h": 1400}, {"id": "1692975940759176", "title": "", "org": "Cambridge", "year": "2018", "cat": "en", "w": 989, "h": 1400}, {"id": "1707946062595497", "title": "Online Resources and Digital Tools", "org": "Cambridge", "year": "2018", "cat": "en", "w": 1056, "h": 1366}, {"id": "1726174477439322", "title": "Бизнес-английский. Чему и как учить", "org": "Macmillan", "year": "2018", "cat": "en", "w": 1400, "h": 987}, {"id": "1726180357438734", "title": "Коммуникативный подход к обучению грамматике: Oxford Grammar for Schools", "org": "Oxford University Press", "year": "2018", "cat": "en", "w": 989, "h": 1400}, {"id": "1727902373933199", "title": "Creative writing: from diaries and letter-writing to stories and writing for a newspaper", "org": "RELOD", "year": "2018", "cat": "en", "w": 990, "h": 1400}, {"id": "1747160705340699", "title": "", "org": "Cambridge", "year": "2018", "cat": "en", "w": 989, "h": 1400}, {"id": "1763466730376763", "title": "Вебинар по французскому языку|French teaching webinar", "org": "Просвещение|Prosveshcheniye", "year": null, "cat": "fr", "w": 948, "h": 1338}, {"id": "1763504147039688", "title": "Международная конференция, 8 ч|International conference, 8 hours", "org": "МГПУ · Oxford University Press|MCPU · Oxford University Press", "year": "2018", "cat": "conf", "w": 992, "h": 1400}, {"id": "1773313526058750", "title": "", "org": "Cambridge", "year": "2018", "cat": "en", "w": 989, "h": 1400}, {"id": "1778867665503336", "title": "Французский как второй иностранный|French as a second foreign language", "org": "Просвещение|Prosveshcheniye", "year": null, "cat": "fr", "w": 1400, "h": 988}, {"id": "1780889135301189", "title": "", "org": "Просвещение|Prosveshcheniye", "year": "2018", "cat": "en", "w": 1400, "h": 991}, {"id": "2034779116578855", "title": "", "org": "Cambridge", "year": null, "cat": "en", "w": 998, "h": 1400}, {"id": "2107268665996566", "title": "Fun with Phonics", "org": "Oxford University Press", "year": "2018", "cat": "en", "w": 1002, "h": 1300}, {"id": "2221247011265397", "title": "", "org": "", "year": "2019", "cat": "en", "w": 990, "h": 1400}, {"id": "2228525087204256", "title": "", "org": "", "year": "2019", "cat": "en", "w": 995, "h": 1400}, {"id": "2233474963375935", "title": "", "org": "Oxford University Press", "year": "2019", "cat": "en", "w": 1050, "h": 1366}, {"id": "2879906172066141", "title": "", "org": "Oxford University Press", "year": "2020", "cat": "en", "w": 971, "h": 1400}, {"id": "4111099652280114", "title": "EAT Your Students: The Secret to Successfully Tutoring Young Kids Online", "org": "", "year": "2021", "cat": "en", "w": 1400, "h": 1082}, {"id": "9141831355873560", "title": "Social and Emotional Learning in Classroom Management", "org": "British Council", "year": "2024", "cat": "en", "w": 852, "h": 1202}];
+const CAT={qual:["Квалификация","Qualification"],conf:["Конференция","Conference"],en:["Вебинар","Webinar"],es:["Семинар по испанскому","Spanish workshop"],fr:["Вебинар по французскому","French webinar"]};
+let lang='ru',filter='all',shown=[],cur=0,expanded=false;
+const pick=s=>{if(!s)return '';const p=s.split('|');return lang==='en'&&p[1]?p[1]:p[0]};
+const titleOf=x=>pick(x.title)||CAT[x.cat][lang==='en'?1:0];
+const metaOf=x=>[pick(x.org),x.year].filter(Boolean).join(' · ');
+function render(){
+  shown=ITEMS.filter(x=>filter==='all'||x.cat===filter);
+  const g=document.getElementById('grid');g.innerHTML='';
+  shown.forEach((x,i)=>{const b=document.createElement('button');b.className='card';b.type='button';
+    b.innerHTML='<div class="img"><img loading="lazy" src="certificates/'+x.id+'.jpg" alt=""></div><div class="t"></div><div class="m"></div>';
+    b.querySelector('.t').textContent=titleOf(x);b.querySelector('.m').textContent=metaOf(x);b.querySelector('img').alt=titleOf(x);
+    b.onclick=()=>openLb(i);g.appendChild(b)});
+  applyLimit();
+}
+function perRow(){const g=document.getElementById('grid');return Math.max(1,getComputedStyle(g).gridTemplateColumns.split(' ').length)}
+function applyLimit(){
+  const g=document.getElementById('grid'),btn=document.getElementById('more'),cards=[...g.children],lim=perRow()*2;
+  const over=cards.length>lim;
+  cards.forEach((c,i)=>c.hidden=over&&!expanded&&i>=lim);
+  btn.hidden=!over;
+  if(over)btn.textContent=expanded?(lang==='en'?'Show less':'Свернуть'):(lang==='en'?'Show more':'Показать больше')+' ('+(cards.length-lim)+')';
+}
+document.getElementById('more').onclick=()=>{expanded=!expanded;applyLimit();if(!expanded)document.getElementById('certificates').scrollIntoView()};
+window.addEventListener('resize',applyLimit);
+function setLang(l){lang=l;document.documentElement.classList.toggle('en',l==='en');document.documentElement.lang=l;
+  document.getElementById('b-ru').setAttribute('aria-pressed',l==='ru');document.getElementById('b-en').setAttribute('aria-pressed',l==='en');
+  document.title=l==='en'?'Irina Zhuravleva — language teacher':'Ирина Журавлева — преподаватель языков';
+  try{localStorage.setItem('iz-lang',l)}catch(e){} render(); if(lb.classList.contains('open'))showLb();}
+const lb=document.getElementById('lb');
+function openLb(i){cur=i;lb.classList.add('open');showLb();document.getElementById('lbclose').focus()}
+function showLb(){const x=shown[cur];const im=document.getElementById('lbimg');im.src='certificates/'+x.id+'.jpg';im.alt=titleOf(x);
+  const c=document.getElementById('lbcap');c.textContent=titleOf(x);const s=document.createElement('small');s.textContent=metaOf(x)+'  ·  '+(cur+1)+' / '+shown.length;c.appendChild(s)}
+function step(d){cur=(cur+d+shown.length)%shown.length;showLb()}
+document.getElementById('lbclose').onclick=()=>lb.classList.remove('open');
+document.getElementById('lbprev').onclick=()=>step(-1);document.getElementById('lbnext').onclick=()=>step(1);
+lb.addEventListener('click',e=>{if(e.target===lb||e.target.classList.contains('stage'))lb.classList.remove('open')});
+document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')lb.classList.remove('open');if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1)});
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{filter=c.dataset.f;expanded=false;document.querySelectorAll('.chip').forEach(o=>o.setAttribute('aria-pressed',o===c));render()});
+document.getElementById('b-ru').onclick=()=>setLang('ru');document.getElementById('b-en').onclick=()=>setLang('en');
+let saved='ru';try{saved=localStorage.getItem('iz-lang')||'ru'}catch(e){}
+setLang(location.hash==='#en'?'en':saved);
+
+function ransom(){
+  const sty=[['#fffdf3','#1d1b2b','Playfair Display'],['#2a4fa3','#fff','Playfair Display'],['#f6d65a','#1d1b2b','Oswald'],['#d6322b','#fff','Bitter'],['#cfe3f3','#1d1b2b','Bitter'],['#16151f','#fff','Oswald'],['#f3b6c4','#1d1b2b','Playfair Display'],['#d3ecd0','#1d1b2b','Oswald']];
+  document.querySelectorAll('.ransom span').forEach(sp=>{
+    const t=sp.textContent;sp.textContent='';let i=0;let w=document.createElement('span');w.className='rw';sp.appendChild(w);
+    for(const ch of t){
+      const e=document.createElement('span');
+      if(ch===' '){e.className='rn sp';e.innerHTML='&nbsp;';sp.appendChild(e);w=document.createElement('span');w.className='rw';sp.appendChild(w);continue}
+      const s=sty[(i*5+3)%sty.length];i++;
+      e.className='rn';e.textContent=ch;
+      e.style.cssText='background:'+s[0]+';color:'+s[1]+';font-family:"'+s[2]+'",serif;font-weight:'+(s[2]==='Oswald'?700:900)+';transform:rotate('+(((i*7)%9)-4)+'deg) translateY('+(((i*3)%5)-2)+'px)';
+      w.appendChild(e);
+    }
+  });
+}
+ransom();
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
