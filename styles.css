@@ -150,6 +150,17 @@ nav.links a:hover{background:var(--yellow)}
 .card img{max-height:100%;width:auto;margin:auto;object-fit:contain}
 .card .t{font:700 14px/1.3 var(--body);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card .m{font:700 20px/1 var(--hand);color:var(--muted)}
+.clist{list-style:none;margin:40px auto 0;padding:0;max-width:860px}
+.clist:empty{display:none}
+.clist li{display:grid;grid-template-columns:64px 1fr auto;gap:6px 18px;align-items:baseline;padding:12px 4px;border-bottom:3px dotted var(--kraft)}
+.clist li[hidden]{display:none}
+.clist .y{font:700 18px var(--cond);color:var(--red);letter-spacing:.05em}
+.clist .t{font-weight:700}
+.clist .o{text-align:right;opacity:.7}
+@media (max-width:600px){.clist li{grid-template-columns:52px 1fr}.clist .o{grid-column:2;text-align:left}}
+/* filters, list and "show more" appear only after clicking the list toggle */
+#certificates:not(.showlist) :is(.chips,.clist,.more){display:none !important}
+.listtoggle{display:flex;justify-content:center;margin-top:40px}
 .more{display:flex;justify-content:center;margin-top:40px}
 .more [hidden]{display:none}
 .card[hidden]{display:none}
